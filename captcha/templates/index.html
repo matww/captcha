@@ -1,0 +1,35 @@
+
+<!doctype html>
+
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+
+<style>
+
+    span {
+        display: inline;
+        border: 3px dashed;
+        font-family: monospace;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<form action="/captcha" method="post">
+
+    <span>{{ captcha }}</span>
+    <input type="text" name="answer">
+    <input type="submit">
+
+</form>
+
+</body>
+
+</html>
+
